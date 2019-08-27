@@ -10,6 +10,7 @@ import Loans from './components/pages/Loans.jsx';
 import Register from './components/auth/Register.js';
 import NotFound from './components/pages/NotFound.jsx';
 import NavbarLayOut from './components/pages/Home/Navbar.jsx';
+import Footer from './components/pages/Footer';
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
         <Route exact path="/loans" component={Loans} />
         <Route component={NotFound} />
       </Switch>
+      <Footer />
     </React.Fragment>
 
 

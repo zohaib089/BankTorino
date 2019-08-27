@@ -49,8 +49,8 @@ class Register extends Component {
     render() {
         const { email, password, fullName } = this.state;
         return (
-            <Container className="App">
-                <h2 className="text-center mt-5">Sign In</h2>
+            <Container>
+                <h2 className="text-center mt-5">Register</h2>
                 <Form className="form" onSubmit={(e) => this.submitForm(e)}>
                     <Col>
                         <FormGroup>
